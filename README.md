@@ -30,6 +30,7 @@ adonis migration:run
 # MySQL [DOCKER]
 Creation: 
     docker run -e MYSQL_ROOT_PASSWORD=1234 -d -p 3306:3306 mysql:5.7.13
+    
 Connection command: 
     docker exec -it container-name mysql -u root -p
 
